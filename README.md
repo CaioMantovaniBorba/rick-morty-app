@@ -1,46 +1,44 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <img alt="Logo" src="https://occ-0-614-185.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABVJ-v6J4uSUKs4BnfgPgFTso7MOvWVH_zJ2pdPg8NkqiQeTMmhLPSd41G2PThaD1FdGezFyFTNsjnG6L61XdlaOWPz4PJL3bsGwp.png" width="400px">
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+  Rick e Morty
+</h3>
 
-## Available Scripts
+<p align="center">App que consome a API do Rick e Morty em GraphQL</p>
 
-In the project directory, you can run:
+## :rocket: Tecnologias
 
-### `yarn start`
+Foi usado [Context API](https://pt-br.reactjs.org/docs/context.html) com [Hooks](https://pt-br.reactjs.org/docs/hooks-intro.html) para fazer a manipulação dos estados.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Outras tecnologias usadas:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [ReactJS](https://reactjs.org/)
+- [React Router](https://reactrouter.com/)
+- [React Hot Toast](https://react-hot-toast.com/)
+- [Styled Components](https://styled-components.com/)
+- [Apollo Client](https://www.apollographql.com/docs/react/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [EditorConfig](https://editorconfig.org/)
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :information_source: Como usar
 
-### `yarn build`
+Para clonar e executar esta aplicação, necessitará [Git](https://git-scm.com), [Node.js v10.16](https://nodejs.org/en/) ou superior e [Yarn v1.13](https://yarnpkg.com/) ou superior instalado no seu computador. A partir da sua linha de comando:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# Clonar o repositório
+$ git clone https://github.com/CaioMantovaniBorba/rick-morty-app
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Ir para a pasta do repositório
+$ cd rick-morty-app
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Instalar as dependências
+$ yarn install
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Rodar a app
+$ yarn start
+```
